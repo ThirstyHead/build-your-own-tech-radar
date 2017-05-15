@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+                                   minimum-scale=1,
+                                   initial-scale=1,
+                                   user-scalable=yes">
+    <title>Build Your Own Technology Radar</title>
+    <link rel="stylesheet" href="bower_components/talk-o-vision/talk-o-vision.css">
+    <style>
+      .title-slide{
+        background: url('slides/title/img/people-radar-vector-clipart.png') no-repeat center center;
+        background-size: contain;
+      }
+
+
+      .bg-white code{
+        background-color: black;
+        color: white;
+      }
+
+      .bg-white .highlight{
+        color: red;
+      }
+
+
+      .slide-with-notes{
+        display: flex;
+        flex-flow: row;
+      }
+
+      .slide-with-notes section{
+        flex-basis: 50%;
+        display: block;
+      }
+
+      .slide-with-notes aside{
+        flex-basis: 50%;
+        display: block;
+        font-size: 1rem;
+        text-align: left;
+        overflow: scroll;
+      }
+
+      .slide-with-notes aside p{
+        font-size: 1rem;
+        text-align: left;
+      }
+
+      .slide-with-notes code{
+        font-size: 0.75rem;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+    <ol class="slideshow">
+      <li class="title-slide">
+          <div class="banner">
+            <div class="banner-title">
+              <h1>Build Your Own Technology Radar</h1>
+              <h2>A ThoughtWorks Exercise</h2>
+            </div>
+            <div class="banner-bio">
+              Scott Davis <br>
+              <a href="mailto:sdavis@thoughtworks.com">sdavis@thoughtworks.com</a> <br>
+              <a href="https://twitter.com/scottdavis99?lang=en">@scottdavis99</a>
+            </div>
+          </div>
+      </li>
+
+      <li>
+        <section>
+          <h2>Settings</h2>
+          <p>To toggle fullscreen on, press <span class="highlight">f</span>. <br>(Press <span class="highlight">ESC</span> to exit fullscreen.)</p>
+
+          <p>To toggle notes on / off, press <span class="highlight">n</span>.</p>
+        </section>
+
+        <aside>
+          <p>If you can see me, you are viewing the notes.</p>
+          <p>To toggle notes on / off, press <span class="highlight">n</span>.</p>
+        </aside>
+
+      </li>
+
+      <li class="bg-white">
+        <section>
+          <img src="slides/bio/img/scott-davis-bio.png"
+               alt="Scott Davis' Biography"
+               class="xfull-height">
+        </section>
+
+        <aside>
+          <p>Hi! My name is Scott Davis. I'm currently a Principle Engineer with ThoughtWorks. Before that, I ran a software consultancy out of Denver for a decade called ThirstyHead. </p>
+
+          <p>I've been writing about web development for years -- articles for IBM, books for O'Reilly and the Pragmatic Bookshelf, and most recently videos for O'Reilly as well.</p>
+
+          <p>I've been doing web development since the very beginning. I remember spending my hard-earned money on a Netscape Navigator license back in 1996, and no matter how hard I've tried to get a refund in the intervening years, I'm pretty sure that I'm never going to see that $19.99 again...</p>
+        </aside>
+      </li>
+
+
+
+      <li class="bg-white">
+        <section>
+          <div class="side-by-side">
+            <img src="slides/bit/img/bit-wiki.png"
+                 alt=""
+                 class="full-height">
+          </div>
+          <div class="side-by-side">
+            <img src="slides/bit/img/bulb.jpg"
+                 alt=""
+                 class="full-height">
+          </div>
+        </section>
+
+        <aside></aside>
+      </li>
+
+      <li class="bg-white">
+        <section>
+          <img src="slides/bit/img/dimmer.jpg"
+               alt=""
+               class="full-height">
+        </section>
+
+        <aside></aside>
+      </li>
+
+      <li class="bg-white">
+        <section>
+          <img src="slides/paradox-of-choice/img/paradox-of-choice.png"
+               alt=""
+               class="full-height">
+        </section>
+
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <img src="slides/paradox-of-choice/img/The-Paradox-of-Choice.jpg"
+               alt=""
+               class="full-height">
+        </section>
+
+        <aside></aside>
+      </li>
+
+      <li class="bg-white">
+        <section>
+          <img src="slides/javascript-frameworks/img/best-javascript-frameworks.jpg"
+               alt=""
+               class="full-height">
+        </section>
+
+        <aside></aside>
+      </li>
+
+      <li class="bg-white">
+        <section>
+          <img src="slides/javascript-frameworks/img/0-days-since-last-javascript-framework.png"
+               alt=""
+               class="full-height">
+        </section>
+
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <img src="slides/thoughtworks/img/thoughtworks-radar.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <h2>Agenda</h2>
+          <ul>
+            <li>Explore the <span class="highlight">ThoughtWorks</span> Technology Radar</li>
+            <li>Build Your <span class="highlight">Own</span> Technology Radar</li>
+          </ul>
+        </section>
+
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          &nbsp;
+        </section>
+      </li>
+
+
+
+
+
+
+
+
+      <li>
+        <section>
+          <h2><span class="highlight">ThoughtWorks</span> Technology Radar</h2>
+        </section>
+
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <img src="slides/thoughtworks/img/thoughtworks-radar.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <img src="slides/thoughtworks/img/thoughtworks-radar-faq.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <img src="slides/thoughtworks/img/thoughtworks-radar-faq-2.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <img src="slides/thoughtworks/img/thoughtworks-radar-faq-structure.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <img src="slides/thoughtworks/img/thoughtworks-radar-faq-structure-2.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <img src="slides/thoughtworks/img/thoughtworks-radar-langs.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <img src="slides/thoughtworks/img/thoughtworks-radar-faq-rings.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <img src="slides/thoughtworks/img/thoughtworks-radar-techniques.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <img src="slides/thoughtworks/img/thoughtworks-radar-tools.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <img src="slides/thoughtworks/img/thoughtworks-radar-platforms.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          &nbsp;
+        </section>
+      </li>
+
+
+
+
+
+
+
+
+
+
+      <li>
+        <section>
+          <h2>Build Your <span class="highlight">Own</span> Technology Radar</h2>
+        </section>
+
+        <aside></aside>
+      </li>
+
+      <li class="bg-white">
+        <section>
+          <img src="slides/thoughtworks/img/byor-conversation.png"
+               alt=""
+               class="full-width">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li class="bg-white">
+        <section>
+          <img src="slides/thoughtworks/img/byor-tool.png"
+               alt=""
+               class="full-width">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li class="bg-white">
+        <section>
+          <img src="slides/thoughtworks/img/byor-tool-3.png"
+               alt=""
+               class="full-width">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li class="bg-white">
+        <section>
+          <img src="slides/thoughtworks/img/byor-step-1.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li class="bg-white">
+        <section>
+          <img src="slides/thoughtworks/img/byor-step-2.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li class="bg-white">
+        <section>
+          <img src="slides/thoughtworks/img/byor-step-3.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          &nbsp;
+        </section>
+      </li>
+
+
+
+
+
+
+      <li>
+        <section>
+          <h2><span class="highlight">Conclusion</span></h2>
+        </section>
+
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <img src="slides/paradox-of-choice/img/The-Paradox-of-Choice.jpg"
+               alt=""
+               class="full-height">
+        </section>
+
+        <aside></aside>
+      </li>
+
+      <li class="bg-white">
+        <section>
+          <div class="side-by-side">
+            <img src="slides/bit/img/bit-wiki.png"
+                 alt=""
+                 class="full-height">
+          </div>
+          <div class="side-by-side">
+            <img src="slides/bit/img/bulb.jpg"
+                 alt=""
+                 class="full-height">
+          </div>
+        </section>
+
+        <aside></aside>
+      </li>
+
+      <li class="bg-white">
+        <section>
+          <img src="slides/bit/img/dimmer.jpg"
+               alt=""
+               class="full-height">
+        </section>
+
+        <aside></aside>
+      </li>
+
+      <li>
+        <section>
+          <img src="slides/thoughtworks/img/thoughtworks-radar.png"
+               alt=""
+               class="full-height">
+        </section>
+        <aside></aside>
+      </li>
+
+      <li class="title-slide">
+          <div class="banner">
+            <div class="banner-title">
+              <h1>Build Your Own Technology Radar</h1>
+              <h2>A ThoughtWorks Exercise</h2>
+            </div>
+            <div class="banner-bio">
+              Scott Davis <br>
+              <a href="mailto:sdavis@thoughtworks.com">sdavis@thoughtworks.com</a> <br>
+              <a href="https://twitter.com/scottdavis99?lang=en">@scottdavis99</a>
+            </div>
+          </div>
+      </li>
+
+
+
+    </ol>
+
+
+  <script src="bower_components/talk-o-vision/talk-o-vision.js" charset="utf-8"></script>
+  </body>
+</html>
